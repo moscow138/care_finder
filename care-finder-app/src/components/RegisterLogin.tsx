@@ -37,7 +37,7 @@ const RegisterLogin = () => {
     </div>
   </div>
 </div>
-<button className="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login/Register</button>
+<button className="btn btn-sm btn-dark" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login/Register</button>
 
 
     </div>
