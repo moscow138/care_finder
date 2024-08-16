@@ -50,9 +50,9 @@ const Home: React.FC = () => {
     <div className="grid grid-cols-1 md:grid-cols-4 h-screen">
       <div className="p-3 mt-9 text-center">
         <ChooseCategoryComponent
-          onCategoryChange={(value) => setCategory(value)}
+          onCategoryChange={(value: string) => setCategory(value)}
         />
-        <RangeSelect onRadiusChange={(value) => setRadius(value)} />
+        <RangeSelect onRadiusChange={(value: number) => setRadius(value)} />
         <SelectRating />
       </div>
       <div className="col-span-3 mt-14">
