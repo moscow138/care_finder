@@ -12,7 +12,7 @@ import { BusinessListProvider } from './context/BusinessListContext';
 const raleway = Raleway({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'care home finder App',
+  title: 'CareFinder',
   description: 'Developed by John ogheneochuko Altschool Africa Engineering student!',
 };
 
