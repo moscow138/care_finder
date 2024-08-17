@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const About: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
@@ -9,7 +9,7 @@ const About: React.FC = () => {
         </h1>
         <p className="text-gray-600 text-lg leading-relaxed mb-6">
          Welcome to CareFinder, your go-to app for discovering healthcare facilities quickly and efficiently.
-         Whether you're searching for a nearby hospital, clinic, pharmacy, or any other healthcare service, 
+         Whether you are searching for a nearby hospital, clinic, pharmacy, or any other healthcare service, 
          CareFinder is designed to make your search seamless and straightforward.
         </p>
         <h1 className="text-lg font-bold">
@@ -42,9 +42,10 @@ const About: React.FC = () => {
         </p>
         
         <div className="flex justify-center mt-8">
-          <a target='_blank' href="https://github.com/moscow138/" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
+          <Link target='_blank' href="https://github.com/moscow138/" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
             Github Page
-          </a>
+          </Link>
+          
         </div>
       </div>
     </div>
