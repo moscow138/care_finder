@@ -246,7 +246,7 @@ const page = async() => {
         </div>
         {/* <!--Footer--> */}
         <footer className="bg-grey-darkest text-white p-2">
-            <div className="flex flex-1 mx-auto">&copy; My Design</div>
+            <div className="flex flex-1 mx-auto">&copy; Care Home Finder</div>
         </footer>
         {/* <!--/footer--> */}
 
