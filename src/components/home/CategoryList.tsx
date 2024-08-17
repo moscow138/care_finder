@@ -58,7 +58,7 @@ const ChooseCategoryComponent: React.FC<ChooseCategoryComponentProps> = ({ onCat
             }}
           >
             <Image 
-              src='/food.webp' // Use category image if available
+              src='/medical.webp' // Use category image if available
               alt={category.categoryname}
               width={40}
               height={40}

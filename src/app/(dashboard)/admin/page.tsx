@@ -124,7 +124,7 @@ const page = async() => {
 
                         <div className="rounded overflow-hidden shadow bg-white mx-2 w-full">
                             <div className="px-6 py-2 border-b border-light-grey">
-                                <div className="font-bold text-xl">Trending Categories</div>
+                                <div className="font-bold text-xl">Top Categories</div>
                             </div>
                             <div className="table-responsive">
                                 <table className="table text-grey-darkest">
@@ -142,7 +142,7 @@ const page = async() => {
                                         <th scope="row">1</th>
                                         <td>
                                             <button className="bg-blue-500 hover:bg-blue-800 text-white font-light py-1 px-2 rounded-full">
-                                                Twitter
+                                                Hospital
                                             </button>
                                         </td>
                                         <td>4500</td>
@@ -155,7 +155,7 @@ const page = async() => {
                                         <th scope="row">2</th>
                                         <td>
                                             <button className="bg-primary hover:bg-primary-dark text-white font-light py-1 px-2 rounded-full">
-                                                Facebook
+                                                clinics
                                             </button>
                                         </td>
                                         <td>10000</td>
@@ -169,7 +169,7 @@ const page = async() => {
                                         <th scope="row">3</th>
                                         <td>
                                             <button className="bg-success hover:bg-success-dark text-white font-light py-1 px-2 rounded-full">
-                                                Amazon
+                                                Pharmacy
                                             </button>
                                         </td>
                                         <td>10000</td>
@@ -183,7 +183,7 @@ const page = async() => {
                                         <th scope="row">4</th>
                                         <td>
                                             <button className="bg-blue-500 hover:bg-blue-800 text-white font-light py-1 px-2 rounded-full">
-                                                Microsoft
+                                            Dialysis Centers
                                             </button>
                                         </td>
                                         <td>10000</td>
@@ -206,7 +206,7 @@ const page = async() => {
                     <div className="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 mt-2">
                         <div className="rounded overflow-hidden shadow bg-white mx-2 w-full pt-2">
                             <div className="px-6 py-2 border-b border-light-grey">
-                                <div className="font-bold text-xl">Progress Among Projects</div>
+                                <div className="font-bold text-xl">Progress Among Categories</div>
                             </div>
                             <div className="">
                                 <div className="w-full">
@@ -240,79 +240,6 @@ const page = async() => {
                             </div>
                         </div>
                     </div>
-                    {/* <!--Profile Tabs--> */}
-                    <div className="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 p-1 mt-2 mx-auto lg:mx-2 md:mx-2 justify-between">
-                        {/* <!--Top user 1--> */}
-                        <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
-                            <Image src="" alt="" className="w-full" width={200} height={200}/>
-                            <div className="flex justify-center -mt-8">
-                                <Image src="" alt=""
-                                     className="rounded-full border-solid border-white border-2 -mt-3" width={200} height={200}/>
-                            </div>
-                            <div className="text-center px-3 pb-6 pt-2">
-                                <h3 className="text-black text-sm bold font-sans">Olivia Dunham</h3>
-                                <p className="mt-2 font-sans font-light text-grey-700">Hello,  from another the other
-                                    side!</p>
-                            </div>
-                            <div className="flex justify-center pb-3 text-grey-dark">
-                                <div className="text-center mr-3 border-r pr-3">
-                                    <h2>34</h2>
-                                    <span>Photos</span>
-                                </div>
-                                <div className="text-center">
-                                    <h2>42</h2>
-                                    <span>Friends</span>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--Top user 2--> */}
-                        <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
-                            <Image src="" alt="" className="w-full" width={200} height={200}/>
-                            <div className="flex justify-center -mt-8">
-                                <Image src="" alt=""
-                                     className="rounded-full border-solid border-white border-2 -mt-3" width={200} height={200} />
-                            </div>
-                            <div className="text-center px-3 pb-6 pt-2">
-                                <h3 className="text-black text-sm bold font-sans">Olivia Dunham</h3>
-                                <p className="mt-2 font-sans font-light text-grey-dark">Hello, from another the other
-                                    side!</p>
-                            </div>
-                            <div className="flex justify-center pb-3 text-grey-dark">
-                                <div className="text-center mr-3 border-r pr-3">
-                                    <h2>34</h2>
-                                    <span>Photos</span>
-                                </div>
-                                <div className="text-center">
-                                    <h2>42</h2>
-                                    <span>Friends</span>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--Top user 3--> */}
-                        <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
-                            <Image src="" alt="" className="w-full" width={200} height={200}/>
-                            <div className="flex justify-center -mt-8" >
-                                <Image src="" alt=""
-                                     className="rounded-full border-solid border-white border-2 -mt-3" width={200} height={200} />
-                            </div>
-                            <div className="text-center px-3 pb-6 pt-2">
-                                <h3 className="text-black text-sm bold font-sans">Olivia Dunham</h3>
-                                <p className="mt-2 font-sans font-light text-grey-dark">Hello,  from another the other
-                                    side!</p>
-                            </div>
-                            <div className="flex justify-center pb-3 text-grey-dark">
-                                <div className="text-center mr-3 border-r pr-3">
-                                    <h2>34</h2>
-                                    <span>Photos</span>
-                                </div>
-                                <div className="text-center">
-                                    <h2>42</h2>
-                                    <span>Friends</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <!--/Profile Tabs--> */}
                 </div>
             </main>
             {/* <!--/Main--> */}
