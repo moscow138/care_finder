@@ -4,18 +4,43 @@ const About: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
       <div className="max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
-          About Developer
+        <h1 className="text-lg font-bold">
+          About CareFinder:
         </h1>
         <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          I am a Front end student of AltSchool Africa, dedicated to delivering high-quality and innovative software solutions. With a team of experienced engineers, designers, and developers, we specialize in building scalable and efficient systems tailored to the unique needs of our clients. Our mission is to help businesses leverage technology to achieve their goals and drive success in an ever-changing digital landscape.
+         Welcome to CareFinder, your go-to app for discovering healthcare facilities quickly and efficiently.
+         Whether you're searching for a nearby hospital, clinic, pharmacy, or any other healthcare service, 
+         CareFinder is designed to make your search seamless and straightforward.
         </p>
+        <h1 className="text-lg font-bold">
+          Our Mission:
+        </h1>
         <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          Our expertise spans across various domains including web development, mobile app development, cloud computing, and AI-driven solutions. We pride ourselves on our commitment to excellence, customer satisfaction, and continuous improvement. At the core of our operations is a focus on collaboration, innovation, and integrity, which allows us to deliver exceptional results for our clients.
+         At CareFinder, our mission is to empower users with easy access to healthcare facilities, ensuring that finding the right care is as simple as possible. We understand that in times of need, every second counts
+         and our app is built to provide you with the most accurate and up-to-date information.
         </p>
+        <h1 className=" text-lg font-bold">
+          How it works:
+        </h1>
         <p className="text-gray-600 text-lg leading-relaxed">
-          Whether you&apos;re a startup looking to build your first product or an established enterprise in need of a technological overhaul, we&apos;re here to help. Let&apos;s work together to bring your vision to life.
+         CareFinder leverages the powerful Google Places API to provide you with comprehensive search results. By typing in your desired location or using your current location, the app instantly delivers a list of nearby healthcare facilities,
+         complete with details such as addresses, contact information, operating hours, and user reviews.
         </p>
+        <h1 className=" text-lg font-bold">
+        Why Choose CareFinder?
+        </h1>
+        <p className="text-gray-600 text-lg leading-relaxed">
+         CareFinder stands out for its reliability, ease of use, and the accuracy of its results. By integrating with the Google Places API, we provide real-time data that is constantly updated,
+         so you can trust that the information you receive is both current and relevant.
+        </p>
+        <h1 className=" text-lg font-bold">
+        Our Commitment
+        </h1>
+        <p className="text-gray-600 text-lg leading-relaxed">
+        We are committed to continuously improving CareFinder by adding new features and expanding our database to include even more healthcare facilities. 
+        Your health is our priority, and we strive to be the best resource for finding the care you need.
+        </p>
+        
         <div className="flex justify-center mt-8">
           <a target='_blank' href="https://github.com/moscow138/" className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
             Github Page
