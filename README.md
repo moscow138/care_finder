@@ -1,4 +1,4 @@
-#About CareFinder:
+##About CareFinder:
 Welcome to CareFinder, your go-to app for discovering healthcare facilities quickly and efficiently. Whether you are searching for a nearby hospital, clinic, pharmacy, or any other healthcare service, CareFinder is designed to make your search seamless and straightforward.
 
 #Our Mission:
