@@ -12,6 +12,7 @@ CareFinder stands out for its reliability, ease of use, and the accuracy of its 
 
 #Our Commitment
 We are committed to continuously improving CareFinder by adding new features and expanding our database to include even more healthcare facilities. Your health is our priority, and we strive to be the best resource for finding the care you need.
+
 #ADMIN LOGIN PASS
 Email:ochustech56@gmail.com
 Pass:12345678
